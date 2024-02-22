@@ -28,8 +28,8 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
 );
 
 const { connectors } = getDefaultWallets({
-  appName: 'RainbowKit App',
-  projectId: 'YOUR_PROJECT_ID',
+  appName: 'web3bridge-newsletter-nft',
+  projectId: 'ffd770356eb359477ca26c568d42f14c',
   chains,
 });
 
