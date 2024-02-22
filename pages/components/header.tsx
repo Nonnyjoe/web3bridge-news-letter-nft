@@ -12,16 +12,16 @@ export default function Header() {
     }
 
   return (
-    <div className=" p-3 md: pt-5 md:p-4 px-5 md:px-10 lg:px-20 flex gap-5 justify-between bg-transparent">
+    <div className=" p-3 md:pt-5 md:p-4 px-5 md:px-10 lg:px-20 flex gap-5 justify-between bg-transparent">
       <div className=" w-36 md:w-40 h-14">
         <img src="images/web3bridge.svg" alt="" className="h-full w-full" />
       </div>
       <div className="flex gap-2 md:gap-8">
         <div className=" hidden md:flex gap-2 md:gap-4 lg:gap-8 items-center justify-center text-center p-2 text-white">
-          <p>Home</p>
-          <p>About</p>
-          <p>Collections</p>
-          <p>FAQ</p>
+          <p className=" font-poppins">Home</p>
+          <p className=" font-poppins">About</p>
+          <p className=" font-poppins">Collections</p>
+          <p className=" font-poppins">FAQ</p>
         </div>
         <div className="items-center justify-center flex">
           <ConnectButton />

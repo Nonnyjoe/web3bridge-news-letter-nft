@@ -4,6 +4,7 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import Header from './components/header';
 import Banner from './banner';
 import AboutUs from './aboutUs';
+import Infometrics from './infometrics';
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
         </Head>
         <body>
           <Banner />
+          <Infometrics />
           <AboutUs />
         </body>
       </>

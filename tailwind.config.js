@@ -10,7 +10,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        robotoc: 'var(--font-roboto_c)',
+        primary: 'var(--font-inter)',
+        mono: 'var(--font-mono)',
+        sans: ["Inter", "sans-serif"],
+        poppins: 'var(--font-poppins)',
+      },
+    },
   },
   plugins: [],
 }
