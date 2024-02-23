@@ -5,6 +5,7 @@ import Header from './components/header';
 import Banner from './banner';
 import AboutUs from './aboutUs';
 import Infometrics from './infometrics';
+import { Footer } from './components/Footer/footer';
 
 export default function Home() {
     return (
@@ -21,6 +22,7 @@ export default function Home() {
           <Banner />
           <Infometrics />
           <AboutUs />
+          <Footer />
         </body>
       </>
     )

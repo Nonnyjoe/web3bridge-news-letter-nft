@@ -17,12 +17,12 @@ export default function BannerText() {
         <div className=" md:w-1/2 md:flex  md:mt-10 ">
             <img src="images/nftCards-web3bridge.png" alt="" className=" w-64 md:w-[30rem] md:h-96"/>
         </div>
-        <div className=" md:w-1/2 mt-5 md:mt-10 lg:pt-10">
+        <div className=" md:w-1/2 mt-5 md:mt-5 lg:pt-10">
             <h1 className="text-4xl md:text-5xl text-white mb-5 font-poppins md:leading-[3.5rem] font-extrabold" style={{ textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }}>
                 Web3bridge Newsletter NFT
             </h1>
             <p className="text-white md:w-4/5 md:text-xl font-poppins md:leading-8">
-                Access the biggest raffle draw in Web3 history with your news-letter Nft collection! Each mint increases your chances in the web3bridge end of the year raffle draw. No risk, guranteed reward. So just Mint it!
+                Access the biggest raffle draw in Web3 history using your newsletter Nft collection! Each mint increases your chances in the web3bridge end of the year raffle draw. No risk, guranteed reward. So just Mint it!
             </p>
             <div className=" my-5">
                 <div className=" w-fit py-2 px-10 text-white bg-red-600 rounded-2xl flex justify-center text-center items-center">
