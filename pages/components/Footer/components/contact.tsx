@@ -1,6 +1,8 @@
 import Link from 'next/link';
+import type { NextPage } from "next";
+import Head from "next/head";
 
-export function Contact() {
+export default function Contact() {
   return (
     <div className="flex flex-col  gap-1 md:gap-5">
       <p className=" text-red-600 font-poppins text-sm md:text-base  font-bold">Contact</p>

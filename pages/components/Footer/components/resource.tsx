@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export function Resource() {
+export default function Resource() {
   return (
     <div className="grid gap-2 md:gap-3">
       <p className="text-red-600 text-sm md:text-base  font-bold font-poppins">Resources</p>

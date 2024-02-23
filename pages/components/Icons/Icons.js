@@ -28,3 +28,5 @@ export function YoutubeIcon({ color, fontsize }) {
 export function InstagramIcon({ color, fontsize }) {
   return <BiLogoInstagram class={color} fontSize={fontsize} />;
 }
+
+export default TwitterIcon
