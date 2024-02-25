@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
-import Header from './components/header';
-import Banner from './banner';
-import AboutUs from './aboutUs';
-import Infometrics from './infometrics';
-import Footer from './components/Footer/footer';
+import Header from '../components/header';
+import Banner from './components/banner';
+import AboutUs from '../aboutUs';
+import Infometrics from '../infometrics';
+import Footer from '../components/Footer/footer';
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 

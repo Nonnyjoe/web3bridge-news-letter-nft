@@ -6,7 +6,7 @@ import {
   XMarkIcon,
 } from "@heroicons/react/24/solid";
 import { useState } from "react";
-import Header from "../components/header";
+import Header from "../../../components/header";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faTelegram, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import BannerText from "./bannerText";

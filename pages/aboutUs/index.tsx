@@ -12,9 +12,11 @@ export default function AboutUs () {
                         in the web3bridge end of the year raffle draw. This raffle draw is an initiative from Web3bridge to reward our loyal community members and also to incentivise and 
                         build our reading culture. This initiative is the first of It's kind from the community and is well positioned to be the first of many to come. Click on the button below to know more about web3bridge.
                     </p>
-                    <div className=" w-fit py-2 px-10 text-white bg-red-600 rounded-2xl flex justify-center text-center items-center mt-5">
-                        <p className=" text-base font-poppins">Web3bridge Homepage</p>
-                    </div>
+                    <a href="https://www.web3bridge.com" target="_blank" rel="noopener noreferrer">
+                        <div className=" w-fit py-2 px-10 text-white bg-red-600 rounded-2xl flex justify-center text-center items-center mt-5 hover:cursor-pointer">
+                            <p className=" text-base font-poppins">Web3bridge Homepage</p>
+                        </div>
+                    </a>
 
                 </div>
                 <div className=' md:w-1/3 flex items-center justify-center'>

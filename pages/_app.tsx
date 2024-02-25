@@ -11,13 +11,9 @@ import type { AppProps } from 'next/app';
 // import { Poppins } from 'next/font/google'
 import { configureChains, createConfig, WagmiConfig } from 'wagmi';
 import {
-  arbitrum,
-  goerli,
-  mainnet,
-  optimism,
   polygon,
-  base,
-  zora,
+  mainnet,
+  goerli
 } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
 import { Roboto_Condensed, Inter, Ubuntu_Mono, Poppins } from 'next/font/google';
@@ -46,10 +42,6 @@ const { chains, publicClient, webSocketPublicClient } = configureChains(
   [
     mainnet,
     polygon,
-    optimism,
-    arbitrum,
-    base,
-    zora,
     ...(process.env.NEXT_PUBLIC_ENABLE_TESTNETS === 'true' ? [goerli] : []),
   ],
   [publicProvider()]
